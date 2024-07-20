@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {StoreProvider} from "@/app/shared/stores/provider";
+import {StoreProvider} from "./shared/stores/provider";
 
 export const metadata: Metadata = {
   title: "Quiz City",
